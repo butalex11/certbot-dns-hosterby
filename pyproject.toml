@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "Apache-2.0" }
 authors = [
-  { name = "Alex Humi" }
+  { name = "Alex Gumi" }
 ]
 keywords = ["certbot", "dns", "acme", "hoster.by", "letsencrypt"]
 classifiers = [
@@ -38,8 +38,8 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/YOUR_GITHUB_USERNAME/certbot-dns-hosterby"
-Issues = "https://github.com/YOUR_GITHUB_USERNAME/certbot-dns-hosterby/issues"
+Homepage = "https://github.com/butalex11/certbot-dns-hosterby"
+Issues = "https://github.com/butalex11/certbot-dns-hosterby/issues"
 
 [project.entry-points."certbot.plugins"]
 dns-hosterby = "certbot_dns_hosterby:Authenticator"
