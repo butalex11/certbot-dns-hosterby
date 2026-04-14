@@ -115,7 +115,3 @@ Build the package:
 python3 -m pip install --upgrade build
 python3 -m build
 ```
-
-## Planned next step
-
-After publishing this package to PyPI, it can be proposed as a new provider for Nginx Proxy Manager by adding an entry to `backend/certbot/dns-plugins.json`.
